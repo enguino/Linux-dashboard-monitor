@@ -1,0 +1,8 @@
+{
+    "hostname": "Ubingu",
+    "kernel": "7.0.0-34-generic",
+    "cpu_percent": 8.5,
+    "raw_percent": 39.0,
+    "disk_percent": 16.0,
+    "process_count": 246
+}

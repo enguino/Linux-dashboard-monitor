@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            Linux Dashboard
+            <button id="lightbutton"></button>
+        </div>
+    </header>
+    <div class="grid">
+        <section class="box">
+            <p>Hostname:</p>
+            <p class="objectinfo" id="hostname">Loading..</p>        
+        </section>
+        <section class="box">
+            <p>Kernel:</p>
+            <p class="objectinfo" id="kernel">Loading..</p>        
+        </section>
+        <section class="box">
+            <p>CPU:</p>
+            <p class="objectinfo" id="cpu">Loading..</p>       
+        </section>
+        <section class="box">
+            <p>RAM:</p>
+            <p class="objectinfo" id="ram">Loading..</p>        
+        </section>
+        <section class="box">
+            <p>Disk:</p>
+            <p class="objectinfo" id="disk">Loading..</p>        
+        </section>
+        <section id="bottombox" class="box">
+            <p>Prosesser:</p>
+            <p class="objectinfo" id="processes">Loading..</p>        
+        </section>        
+    </div>
+
+    <footer class="box" id="foot">
+        <div class="title" id="foottext">
+            
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
